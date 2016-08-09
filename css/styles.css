@@ -1,0 +1,65 @@
+/**
+ * @file
+ * SMACSS Modules
+ *
+ * Adds modular sets of styles.
+ *
+ * Additional useful selectors can be found in Zen's online documentation.
+ * https://drupal.org/node/1707736
+ */
+/* line 4, ../compass/sass/styles.scss */
+form {
+  width: 30%;
+  margin: auto;
+}
+/* line 8, ../compass/sass/styles.scss */
+form .form-control[type="text"] {
+  width: 70%;
+}
+/* line 12, ../compass/sass/styles.scss */
+form input[type="submit"] {
+  width: 27%;
+}
+
+/* line 17, ../compass/sass/styles.scss */
+.btn-submit {
+  border-radius: 5px;
+  border: 1px solid #481da7;
+  background: none;
+  transition: 0.3s all;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+/* line 18, ../compass/sass/styles.scss */
+.btn-submit:hover {
+  background-color: #5b25d2;
+  color: white;
+}
+
+/* line 34, ../compass/sass/styles.scss */
+.poster-grid {
+  margin-top: 100px;
+}
+/* line 37, ../compass/sass/styles.scss */
+.poster-grid .poster {
+  display: inline-block;
+  width: 20%;
+  padding: 10px;
+  height: 500px;
+}
+/* line 38, ../compass/sass/styles.scss */
+.poster-grid .poster img {
+  max-width: 100%;
+  height: 327px;
+}
+/* line 43, ../compass/sass/styles.scss */
+.poster-grid .poster .movie-title {
+  text-align: center;
+  padding-top: 5px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
